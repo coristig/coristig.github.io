@@ -1,0 +1,12 @@
+---
+layout: post
+title: Sharks, Landsharks, Geoplotting, and KDTrees!
+date: 2015-09-14T14:37:44.000Z
+categories: data science
+---
+
+<img src="/images/landshark.jpg" class="fit image"> It's been somewhat of a sharky summer these past 3 months: there were a smattering of attacks up and down the east coast of the US, professional surfer Mick Fanning, had a close call at a competition in South Africa, and several beaches were closed in California after a Great White took a bite out of a surfboard! So now with the end of summer officially here (at least in the northern hemisphere), we thought it would be interesting to dig into some shark attack data. In this post, we'll look through the Global Shark Attack File, checkout some of the characteristics of shark attacks and then dive in to some geo-plotting with Matplotlib Basemap.
+
+
+- The [repo](https://github.com/coristig/sharks)
+- The [full blog post](http://blog.yhat.com/posts/sharks.html)
