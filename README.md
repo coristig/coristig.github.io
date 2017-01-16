@@ -1,5 +1,1 @@
-# coristig.github.io
-
-[Page](https://coristig.github.io/)
-
-Update
+Page: [http://www.colinristig.com](http://www.colinristig.com)
