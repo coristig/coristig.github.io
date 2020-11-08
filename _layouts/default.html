@@ -14,17 +14,25 @@
   			<link rel="stylesheet" href="/css/skel.css" />
   			<link rel="stylesheet" href="/css/style.css" />
   			<link rel="stylesheet" href="/css/style-xlarge.css" />
-  		</noscript>
+      </noscript>
+      <script>
+        window.userbugreport = {
+          "id": "464471f8-56f4-48b9-a14d-08f3ee0341f4",
+          "apikey": "b064dcff-8545-4628-8190-ddaf1144b8cf",
+          "ubr_script": "https://unpkg.com/@userbugreport/bugbutton-react/dist/browser/index.js"
+        };
+        !function(t,e,n){function o(){var t,o=e.getElementsByTagName(n)[0];!function(a,r,d){e.getElementById(r)||((t=e.createElement(n)).src=a,t.id=r,o.parentNode.insertBefore(t,o),"function"==typeof d&&(t.onload=d.call(this,r),t.onreadystatechange=function(t){"complete"!==this.readyState&&"loaded"!==this.readyState||d.call(this,t)}))}(window.userbugreport.ubr_script,"ubrsdk",(function(t){var e=setInterval((function(){window.showBugButton&&(clearInterval(e),window.showBugButton(window.userbugreport))}),100)}))}t.addEventListener?t.addEventListener("load",o):t.attachEvent&&t.attachEvent("onload",o)}(window,document,"script");
+        </script>
   		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
   	</head>
 
 	<body id="top">
 
       <header id="header">
-          <a href="#" class="image avatar"><img src="/images/profile-1.png" alt="" /></a>
+          <a href="{{ site.url }}" class="image avatar"><img src="/images/profile-1.png" alt="" /></a>
           <h1><strong>Colin Ristig</strong></h1>
-          <p class="subheader">PM at <a href="https://www.yhat.com/" target="_blank">Yhat</a> in NYC</p>
-          <p class="subheader">Enjoys family, friends, surfing, <br>piano, code, and old cars.</p>
+          <p class="subheader">PM at <a href="http://emergemarket.com/" target="_blank">Emerge</a> in Boulder, CO</p>
+          <p class="subheader">Enjoys family, friends, surfing, skiing, <br>fishing, mountain biking piano, <br>code, and old cars.</p>
       </header>
 
 
